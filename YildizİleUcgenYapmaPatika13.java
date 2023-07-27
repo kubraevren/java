@@ -18,7 +18,7 @@ public class YildizİleUcgenYapmaPatika13 {
 
 */
 	Scanner input=new Scanner(System.in);
-	System.out.print("ucgen tabaninda kac yildiz olsun?  ");
+	System.out.print("n:  ");
 	int sayi=input.nextInt();
 	
 	System.out.println();
@@ -28,19 +28,7 @@ for(int i=0;i<=sayi;i++) {
 			n++;
 	}}
 System.out.println("n: " + n);
-/*
-	System.out.println(katSayisi);
-	System.out.println(sayi);
-	
-	for(int i=(sayi/2);i>=0;i--) {
-		System.out.print(" ");
-		for(int j=sayi;j>=0;j--) {
-			System.out.print("*");
 
-		}
-		System.out.println();
-	}
-		*/
 	
 	for(int i=0;i<=n;i++) {
 		for(int k=0;k<(n-i);k++) {
